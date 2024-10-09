@@ -2,7 +2,7 @@
  * @Author: Damon Liu
  * @Date: 2024-09-10 10:05:28
  * @LastEditors: Damon Liu
- * @LastEditTime: 2024-10-09 10:06:48
+ * @LastEditTime: 2024-10-09 14:23:55
  * @Description: 
 -->
 <template>
@@ -23,7 +23,7 @@
                         </a>
                     </a-tooltip>
                     <a-tooltip title="掘金详解文章链接"> 
-                        <a href="" target="_blank" style="display: flex; align-items: center;">
+                        <a href="https://juejin.cn/spost/7423293748975648819" target="_blank" style="display: flex; align-items: center;">
                             <JueJinIcon/>
                             <span style="margin-left: 4px;"> 掘金详解 </span>
                         </a>
