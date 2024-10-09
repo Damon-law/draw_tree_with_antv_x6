@@ -1,5 +1,21 @@
-# Vue 3 + Vite
+# 简介
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+使用antv/x6+vue简易画树 demo(2/n叉树，导入导出) -- 实现收缩、增删子节点（自定义）
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+# 效果展示
+
+![输入图片说明](public/antv_x6_%E7%94%BB%E6%A0%91_%E5%92%8C%E5%8F%A6%E5%A4%96_9_%E4%B8%AA%E9%A1%B5%E9%9D%A2_-_%E4%B8%AA%E4%BA%BA_-_Microsoft__Edge_2024-10-09_09-59-19.gif)
+
+# 实现功能预览
+
+1.  生成模拟树数组（模拟后端存储的树结构）
+2.  **树生成算法** -- 根据树数组数据（模拟/后端存储）计算并生成`andv/x6`的树结构（树节点，边节点，收缩节点）
+3.  **收缩节点** -- 点击后收缩子树
+4.  **动态增删节点** -- 可以点击选中节点，新增子节点和删除节点后，更新视图
+5.  **导出图片** -- 使用`andv/x6`插件导出树图片
+6.  **小地图** -- `antv/x6`插件
+7.  **全屏/退出全屏展示** -- 基于`vueuse`的`useFullScreen`
+
+# 掘金详解
+
+[含代码仓库 - 使用antv/x6+vue简易画树 demo(2/n叉树，导入导出) -- 实现收缩、增删子节点（自定义）](https://juejin.cn/post/7423293748975648819)
