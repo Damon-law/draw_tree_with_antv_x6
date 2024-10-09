@@ -1,0 +1,31 @@
+{
+  "name": "draw_tree_with_antv_x6",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ant-design/icons-vue": "^7.0.1",
+    "@antv/g6": "^5.0.9",
+    "@antv/x6": "^2.18.1",
+    "@antv/x6-plugin-export": "^2.1.6",
+    "@antv/x6-plugin-minimap": "^2.0.7",
+    "@antv/x6-plugin-scroller": "^2.0.10",
+    "@antv/x6-vue-shape": "^2.1.2",
+    "@vueuse/core": "^10.11.0",
+    "ant-design-vue": "4.x",
+    "uuid": "^10.0.0",
+    "vite-svg-loader": "^5.1.0",
+    "vue": "^3.4.37"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.2",
+    "less": "^4.2.0",
+    "unplugin-vue-components": "^0.27.3",
+    "vite": "^5.4.1"
+  }
+}
